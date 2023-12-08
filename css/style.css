@@ -16,12 +16,12 @@ body {
 /* HEADER */
 
 #header-home{
-    text-align: center;
+    align-items: center;
 }
 
 .banner {
     background-color: #fe6a86;
-    height: 480px;
+    height: 420px;
 }
 
 .banner .logo {
