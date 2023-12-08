@@ -47,17 +47,29 @@ body {
 
 .banner h1 {
     font-size: 45px;
-    line-height: 35px;
+    line-height: 45px;
     font-weight: 900;
     margin-top: 15px;
     text-transform: uppercase;
+    margin: 0;
 }
 
-.banner p {
-    margin: 15px;
+.banner-materia {
+    margin: auto;
     width: 600px;
-    font-size: 19px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Alinha o texto no centro */
+    height: 50vh; /* Garante que o contêiner ocupe 100% da altura da viewport */
 }
+
+.banner-materia p {
+    margin: 0; /* Remove as margens padrão para garantir o alinhamento correto */
+}
+
 
 /* FIM HEADER */
 
@@ -69,13 +81,24 @@ footer small {
     text-decoration: none;
 }
 
+.footer-memoria{
+  text-align: center;
+  padding-top: 3em;
+   color: #fe6a86;
+   align-items: center;
+}
+
+.footer-memoria a{
+color: #fe6a86
+}
+
 /* FIM FOOTER */
 
 /*INDEX*/
 #conteudos {
     width: 100%;
     text-align: center;
-    text-align: center;
+    align-items: center;
     color: black;
 }
 
@@ -92,8 +115,10 @@ footer small {
 }
 
 #section-estrutura {
+    text-align: center;
     align-items: center;
-    margin: 100px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .conteudos-vistos {
