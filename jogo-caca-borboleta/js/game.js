@@ -44,7 +44,7 @@ function posicaoRandomica() {
         if (vidas > 3) {
             window.location.href = 'gameOver.html'
         } else {
-            document.getElementById('v' + vidas).src = "/img/coracao_vazio.png"
+            document.getElementById('v' + vidas).src = "img/coracao_vazio.png"
             vidas++
         }
     }
@@ -56,7 +56,7 @@ function posicaoRandomica() {
     console.log(posicaoX, posicaoY)
 
     var borboleta = document.createElement('img')
-    borboleta.src = '/img/borboleta.png'
+    borboleta.src = 'img/borboleta.png'
     borboleta.className = tamanhoAleatorio() + " " + ladoAleatorio()
     borboleta.style.left = posicaoX + 'px'
     borboleta.style.top = posicaoY + 'px'

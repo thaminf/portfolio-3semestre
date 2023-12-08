@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 body{
-    background: no-repeat url(/img/bg.png);
+    background-color: palevioletred;
     background-size: 100%;
     cursor: url('../img/rede.png'), auto;
 }
