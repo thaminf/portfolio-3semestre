@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.palco-game {
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/bg.jpg);
+}
+
+.alga {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: alga-animation 2s infinite linear;
+}
+
+@keyframes alga-animation {
+    from {
+        right: 0;
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.sereia {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pulo {
+    animation: sereia-animation 500ms ease-out;
+}
+
+@keyframes sereia-animation {
+    0%{
+        bottom: 0;
+    }
+
+    40%{
+        bottom: 180px;
+    }
+
+    50%{
+        bottom: 180px;
+    }
+
+    60%{
+        bottom: 180px;
+    }
+
+    100%{
+        bottom: 0;
+    }
+}
+
+.peixe{
+    position: absolute;
+    width: 550px;
+    animation: peixe-animation 10s infinite linear;
+}
+
+@keyframes peixe-animation{
+    from {
+        right: 550px;
+    } to {
+        right: 100%;
+    }
+}
